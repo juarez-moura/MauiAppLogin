@@ -56,4 +56,16 @@ public partial class Login : ContentPage
 
 
     }
+
+    private void Button_Clicked_1(object sender, EventArgs e)
+    {
+		//Sobre dados_projeto = new Sobre()
+		
+			
+            //MainPage = new Sobre()
+            App.Current.MainPage = new Sobre();
+
+        
+        
+    }
 }
